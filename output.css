@@ -1842,6 +1842,16 @@ video {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/\/img\/LogDomecare-04\.webp\'\)\] {
   background-image: url('//img/LogDomecare-04.webp');
 }
@@ -1852,6 +1862,26 @@ video {
 
 .bg-\[url\(\'\/public\/img\/LogDomecare-04\.webp\'\)\] {
   background-image: url('/public/img/LogDomecare-04.webp');
+}
+
+.bg-\[url\(\'\/public\/img\/atWork\/\'\)\] {
+  background-image: url('/public/img/atWork/');
+}
+
+.bg-\[url\(\'\/public\/img\/atWork\/360x640-01\.webp\'\)\] {
+  background-image: url('/public/img/atWork/360x640-01.webp');
+}
+
+.bg-\[url\(\'\/public\/img\/atWork\/wing1\.webp\'\)\] {
+  background-image: url('/public/img/atWork/wing1.webp');
+}
+
+.bg-\[url\(\'\/img\/atWork\/wing1\.webp\'\)\] {
+  background-image: url('/img/atWork/wing1.webp');
+}
+
+.bg-\[url\(\'\/public\/atWork\/wing1\.webp\'\)\] {
+  background-image: url('/public/atWork/wing1.webp');
 }
 
 .decoration-slice {
@@ -1876,6 +1906,10 @@ video {
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-fixed {
@@ -2554,8 +2588,64 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:bg-\[url\(\'\/public\/img\/atWork\/360x640-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/360x640-01.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/img\/atWork\/1024x600-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1024x600-01.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/img\/atWork\/1280x800-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1280x800-01.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/img\/atWork\/wing2\.webp\'\)\] {
+    background-image: url('/public/img/atWork/wing2.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/atWork\/wing2\.webp\'\)\] {
+    background-image: url('/public/atWork/wing2.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/atWork\/wing3\.webp\'\)\] {
+    background-image: url('/public/atWork/wing3.webp');
+  }
+
+  .sm\:bg-\[url\(\'\/public\/atWork\/wing5\.webp\'\)\] {
+    background-image: url('/public/atWork/wing5.webp');
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:bg-\[url\(\'\/public\/atWork\/wing3\.webp\'\)\] {
+    background-image: url('/public/atWork/wing3.webp');
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-\[url\(\'\/public\/img\/atWork\/1024x600-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1024x600-01.webp');
+  }
+
+  .lg\:bg-\[url\(\'\/public\/img\/atWork\/1024x720-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1024x720-01.webp');
+  }
+
+  .lg\:bg-\[url\(\'\/public\/img\/atWork\/wing3\.webp\'\)\] {
+    background-image: url('/public/img/atWork/wing3.webp');
+  }
+
+  .lg\:bg-\[url\(\'\/public\/atWork\/wing3\.webp\'\)\] {
+    background-image: url('/public/atWork/wing3.webp');
+  }
+
+  .lg\:bg-\[url\(\'\/public\/atWork\/wing4\.webp\'\)\] {
+    background-image: url('/public/atWork/wing4.webp');
   }
 }
 
@@ -2564,5 +2654,37 @@ video {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:bg-\[url\(\'\/public\/img\/atWork\/1280x800-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1280x800-01.webp');
+  }
+
+  .xl\:bg-\[url\(\'\/public\/img\/atWork\/wing4\.webp\'\)\] {
+    background-image: url('/public/img/atWork/wing4.webp');
+  }
+
+  .xl\:bg-\[url\(\'\/public\/atWork\/wing4\.webp\'\)\] {
+    background-image: url('/public/atWork/wing4.webp');
+  }
+
+  .xl\:bg-\[url\(\'\/public\/atWork\/wing5\.webp\'\)\] {
+    background-image: url('/public/atWork/wing5.webp');
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:bg-\[url\(\'\/public\/img\/atWork\/1546x960-01\.webp\'\)\] {
+    background-image: url('/public/img/atWork/1546x960-01.webp');
+  }
+
+  .\32xl\:bg-\[url\(\'\/public\/img\/atWork\/wing5\.webp\'\)\] {
+    background-image: url('/public/img/atWork/wing5.webp');
+  }
+
+  .\32xl\:bg-\[url\(\'\/public\/atWork\/wing5\.webp\'\)\] {
+    background-image: url('/public/atWork/wing5.webp');
   }
 }
