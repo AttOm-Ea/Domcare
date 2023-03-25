@@ -699,6 +699,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -2005,6 +2010,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-\[\#ffffffee\] {
+  --tw-gradient-from: #ffffffee;
+  --tw-gradient-to: rgb(255 255 255 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-blue-500 {
   --tw-gradient-to: #3b82f6;
 }
@@ -2035,6 +2046,10 @@ video {
 
 .to-\[\#ffffffda\] {
   --tw-gradient-to: #ffffffda;
+}
+
+.to-\[\#ffffffee\] {
+  --tw-gradient-to: #ffffffee;
 }
 
 .decoration-slice {
