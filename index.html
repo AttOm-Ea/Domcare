@@ -7,41 +7,216 @@
     <title>Domcaremx</title>
     <link href="/output.css" rel="stylesheet">
   </head>
-  <body class="bg-white w-full h-full p-0 m-0">
-    <div class="w-full h-screen bg-cover bg-no-repeat bg-center
+  <body class="bg-richWhiteRa w-full h-full p-0 m-0 font-cocomatUL">
+    <!-- <div class="w-full h-screen bg-cover bg-no-repeat bg-center
       bg-[url('/public/atWork/wing1.webp')]
       sm:bg-[url('/public/atWork/wing2.webp')]
       md:bg-[url('/public/atWork/wing3.webp')]
       lg:bg-[url('/public/atWork/wing4.webp')]
       xl:bg-[url('/public/atWork/wing5.webp')]
     ">
-    </div>
+    </div> -->
 
-    <!-- <nav class="w-full h-32 flex justify-end border-b-2 border-slate-300 shadow bg-[url('/public/img/LogDomecare-04.webp')] bg-contain bg-no-repeat bg-center">
-      <div class="flex flex-col justify-evenly items-center w-2/12 cursor-pointer">
-        <div class="w-9 h-9 flex justify-center items-center rounded-full bg-slate-700 cursor-pointer hover:bg-blue-700">
+    <!-- NavBar -->
+    <nav class="w-full h-44 flex justify-end border-b-2 border-slate-300 shadow bg-[url('/public/img/LogDomecare-04.webp')] bg-[length:45%] bg-no-repeat bg-center">
+      <div class="flex flex-col justify-evenly items-center w-2/12">
+        <div class="w-8 h-8 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-blue-700">
           <svg fill="#ffffff" height="70%" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-337 273 123.5 256" xml:space="preserve">
             <path d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3 c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"/>
           </svg>
         </div>
-        <div class="w-9 h-9 flex justify-center items-center rounded-full bg-slate-700 cursor-pointer hover:bg-pink-600">
+        <div class="w-8 h-8 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-pink-600">
           <svg fill="#ffffff" width="100%" height="100%" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/>
           </svg>  
         </div>
-        <div class="w-9 h-9 flex justify-center items-center rounded-full bg-slate-700 cursor-pointer hover:bg-green-600">
+        <div class="w-8 h-8 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-green-600">
           <svg fill="#ffffff" width="80%" height="100%" viewBox="-.5 0 16 16" xmlns="http://www.w3.org/2000/svg">
             <path d="M11.42 9.49c-.19-.09-1.1-.54-1.27-.61s-.29-.09-.42.1-.48.6-.59.73-.21.14-.4 0a5.13 5.13 0 0 1-1.49-.92 5.25 5.25 0 0 1-1-1.29c-.11-.18 0-.28.08-.38s.18-.21.28-.32a1.39 1.39 0 0 0 .18-.31.38.38 0 0 0 0-.33c0-.09-.42-1-.58-1.37s-.3-.32-.41-.32h-.4a.72.72 0 0 0-.5.23 2.1 2.1 0 0 0-.65 1.55A3.59 3.59 0 0 0 5 8.2 8.32 8.32 0 0 0 8.19 11c.44.19.78.3 1.05.39a2.53 2.53 0 0 0 1.17.07 1.93 1.93 0 0 0 1.26-.88 1.67 1.67 0 0 0 .11-.88c-.05-.07-.17-.12-.36-.21z"/><path d="M13.29 2.68A7.36 7.36 0 0 0 8 .5a7.44 7.44 0 0 0-6.41 11.15l-1 3.85 3.94-1a7.4 7.4 0 0 0 3.55.9H8a7.44 7.44 0 0 0 5.29-12.72zM8 14.12a6.12 6.12 0 0 1-3.15-.87l-.22-.13-2.34.61.62-2.28-.14-.23a6.18 6.18 0 0 1 9.6-7.65 6.12 6.12 0 0 1 1.81 4.37A6.19 6.19 0 0 1 8 14.12z"/>
           </svg>
         </div>
       </div>
     </nav>
-
+    <!-- Name -->
     <div class="w-full flex justify-center items-center">
-      <h1 class="bg-gray-700 text-white py-3 px-4 font-semibold"> Arq. Abraham Valencia Cruz </h1>
-    </div> -->
-    
-
+      <h1 class="bg-blackRa text-white text-center py-4 px-4 font-light text-xl"> Arq. Abraham Valencia Cruz </h1>
+    </div>
+    <!-- First Bg -->
+    <div>
+      <img class="w-full md:hidden" src="./public/img/PortadaMov-04.webp" alt="Portada">
+      <img class="w-full hidden md:block" src="./public/img/PortadaEsc-04.webp" alt="Portada">
+    </div>
+    <!-- first sub-title -->
+    <div class="bg-whiteRa w-full">
+      <h2 class="uppercase text-center text-xl py-5 tracking-[.4rem]">Mantenimiento <br> Residencial</h2>
+    </div>
+    <!-- Items residential maintenance -->
+    <div class="w-full flex flex-wrap py-4">
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Piso-04.webp" alt="Piso" class="w-10/12 mb-3">
+        <h3 class="text-base"> APLICACIÓN DE PISO </h3>
+        <p> - Cerámica </p>
+        <p> - Laminado </p>
+        <p> - Madera Natural </p>
+        <p> - Porcelana </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Construccion-04.webp" alt="Construccion" class="w-10/12 mb-3">
+        <h3 class="text-base"> CONSTRUCCIÓN </h3>
+        <p> - Ampliaciones </p>
+        <p> - Cimentación </p>
+        <p> - Creación de planos </p>
+        <p> - Diseño </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Electricidad-04.webp" alt="Electricidad" class="w-10/12 mb-3">
+        <h3 class="text-base"> ELECTRICIDAD </h3>
+        <p> - Cambio de iluminación </p>
+        <p> - Instalaciones </p>
+        <p> - Redes eléctricas </p>
+        <p> <br> </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Interiorismo-04.webp" alt="Interiorismo" class="w-10/12 mb-3">
+        <h3 class="text-base"> INTERIORISMO </h3>
+        <p> - Conceptualización </p>
+        <p> - Decoración </p>
+        <p> - Ejecución </p>
+        <p> - Proyección </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Jardines-04.webp" alt="Jardines" class="w-10/12 mb-3">
+        <h3 class="text-base"> JARDINES </h3>
+        <p> - Creción </p>
+        <p> - Jardineras </p>
+        <p> - Plantación </p>
+        <p> - Remodelación </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Pintura-04.webp" alt="Pintura" class="w-10/12 mb-3">
+        <h3 class="text-base"> PINTURA </h3>
+        <p> - Acabados </p>
+        <p> - Exterior </p>
+        <p> - Impermeabilización </p>
+        <p> - Interior </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Plomeria-04.webp" alt="Plomeria" class="w-10/12 mb-3">
+        <h3 class="text-base"> PLOMERÍA </h3>
+        <p> - Baño </p>
+        <p> - Cocina </p>
+        <p> - Red Hidraulica </p>
+        <p> <br> </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+      <!-- --- -->
+      <div class="w-1/2 flex flex-col items-center font-thin text-sm my-8">
+        <img src="./public/img/Remodelacion-04.webp" alt="Remodelacion" class="w-10/12 mb-3">
+        <h3 class="text-base"> REMODELACIÓN </h3>
+        <p> - Baños </p>
+        <p> - Cocinas </p>
+        <p> - Exterior </p>
+        <p> - Interior </p>
+        <a href="" class="bg-blackRa text-white py-2 px-2 mt-3"> Contáctanos </a>
+      </div>
+    </div>
+    <!-- Second sub-title -->
+    <div class="bg-whiteRa w-full">
+      <h2 class="uppercase text-center text-xl py-5 tracking-[.4rem]"> Acerca de <br> nosotros </h2>
+    </div>
+    <!-- About us  -->
+    <div class="w-full flex flex-col justify-center items-center text-xs text-center pt-6 px-2">
+      <h4 class="w-7/12 bg-blackRa text-white py-1 px-3 text-xl font-bold my-4"> ¿Quiénes somos? </h4>
+      <p class="py-2"> Somos una empresa Mantenimiento Residencial y Comercial especialistas en el mejoramiento y reparación de cualquier problema en su casa o negocio. </p>
+      <p class="py-2"> Realizamos trabajos de pintura, electricidad, plomería, tablaroca, pisos, azulejos, construcción, Interiorismo, impermeabilización y mucho más. </p>
+      <p class="py-2"> Radicamos en la zona de Tlalnepantla pero tambien trabajamos en los alrededores así como en la Ciudad de México y en el Estado de México. </p>
+      <img class="w-4/6 shadow-[.2rem_.1rem_.2rem_.1rem_rgba(0,0,0,0.3)]" src="./public/img/Pic1-04.webp" alt="Pic1">
+    </div>
+    <!-- Our objetive -->
+    <div class="w-full flex flex-col justify-center items-center text-xs text-center pt-6 pb-4 px-6">
+      <h4 class="w-7/12 bg-blackRa text-white py-1 px-3 text-xl font-bold my-4"> Nuestro objetivo </h4>
+      <p class="py-2"> Nuestro objetivo es mantener su inmueble en perfectas condiciones garantizando nuestro trabajo con satisfaccion y calidad en cada obra. </p>
+      <p class="py-2"> Estamos a sus ordenes sin importar la gravedad de su problema. Comuniquenos cuál es la situación que necesita resolver para brindarle una rápida y oportuna respuesta. </p>
+      <p class="py-2"> Podemos ir a su domicilio para brindarle un presupuesto sin compromiso y, desde luego, una explicación sobre el trabajo que tengamos que llevar a cabo. </p>
+      <p class="py-2"> Más de diez años de experiencia que nos respaldan </p>
+      <img class="w-4/6 shadow-[.2rem_.1rem_.2rem_.1rem_rgba(0,0,0,0.3)]" src="./public/img/Pic2-04.webp" alt="Pic1">
+    </div>
+    <!-- Values  -->
+    <div class="w-full flex flex-col justify-center items-center my-6 text-blackRa">
+      <img class="w-1/4" src="./public/img/Icon1-04.webp" alt="Calidad">
+      <span class="text-3xl my-8 tracking-[.5rem] font-extrabold"> CALIDAD </span>
+      <img class="w-1/4" src="./public/img/Icon2-04.webp" alt="Compromiso">
+      <span class="text-3xl my-8 tracking-[.5rem] font-extrabold"> COMPROMISO </span>
+      <img class="w-1/4" src="./public/img/Icon3-04.webp" alt="Honestidad">
+      <span class="text-3xl my-8 tracking-[.5rem] font-extrabold"> HONESTIDAD </span>
+    </div>
+    <!-- Second Bg -->
+    <div class="bg-whiteRa py-7">
+      <img class="w-full md:hidden" src="./public/img/FootMov-04.webp" alt="Portada">
+      <img class="w-full hidden md:block" src="./public/img/FootEsc-04.webp" alt="Portada">
+    </div>
+    <!-- Maxims -->
+    <div class="bg-whiteRa bg-[url('/public/img/LogDomecare-04.webp')] bg-[length:95%] bg-no-repeat bg-center">
+      <div class="flex flex-col items-center py-6 px-3 text-center bg-gradient-to-r from-[#ffffffda] to-[#ffffffda]">
+      <!-- --- -->
+        <h4 class="w-7/12 bg-blackRa text-white py-1 pt-3 pb-1 text-xl font-bold my-4"> VALORES: </h4>
+        <!-- -- -->
+        <span class="font-black text-base mt-4"> Compromiso con la calidad: </span>
+        <p class="font-extralight text-xs"> Nos esforzamos por proporcionar servicios de mantenimiento de alta calidad, asegurando la satisfacción de nuestros clientes. </p>
+        <!-- -- -->
+        <span class="font-black text-base mt-4"> Profesionalismo: </span>
+        <p class="font-extralight text-xs"> Nuestro equipo de trabajo está compuesto por profesionales altamente capacitados, con una actitud amable y respetuosa hacia nuestros clientes y sus hogares. </p>
+        <!-- -- -->
+        <span class="font-black text-base mt-4"> Responsabilidad </span>
+        <p class="font-extralight text-xs"> Somos responsables de nuestros servicios y del impacto que tenemos en la comunidad. Nos aseguramos de utilizar materiales y prácticas que sean amigables con el medio ambiente. </p>
+        <!-- -- -->
+        <span class="font-black text-base mt-4"> Comunicación efectiva: </span>
+        <p class="font-extralight text-xs"> Nos comunicamos de manera clara y efectiva con nuestros clientes, para entender sus necesidades y brindar soluciones rápidas y efectivas. </p>
+        <!-- -- -->
+        <span class="font-black text-base mt-4"> Integridad: </span>
+        <p class="font-extralight text-xs"> Nos guiamos por altos estándares éticos y de integridad en todas nuestras acciones, manteniendo la confidencialidad y respetando la privacidad de nuestros clientes. </p>
+      <!-- --- -->
+        <h4 class="w-7/12 bg-blackRa text-white py-1 pt-3 pb-1 text-xl font-bold my-4"> MISIÓN: </h4>
+        <p class="font-extralight text-xs mt-4"> Nuestra misión es brindar un servicio de mantenimiento residencial de alta calidad y confianza a nuestros clientes. Nos esforzamos por proporcionar soluciones efectivas y rápidas a cualquier problema de mantenimiento en hogares y residencias, garantizando la comodidad y seguridad de nuestros clientes. </p>
+      <!-- --- -->
+        <h4 class="w-7/12 bg-blackRa text-white py-1 pt-3 pb-1 text-xl font-bold my-4"> VISIÓN: </h4>
+        <p class="font-extralight text-xs mt-4"> Nuestra visión es ser reconocidos como el proveedor líder en servicios de mantenimiento residencial, brindando un servicio de calidad excepcional y una experiencia positiva nuestros clientes. Buscamos expandirnos a nivel nacional y ser una empresa respetada y admirada por nuestra excelencia en el servicio al cliente y por el compromiso con la calidad. </p>
+      <!-- --- -->
+        <div class="flex justify-evenly items-center w-full mt-6 px-8">
+          <div class="w-10 h-10 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-blue-700">
+            <svg fill="#ffffff" height="70%" width="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-337 273 123.5 256" xml:space="preserve">
+              <path d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3 c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"/>
+            </svg>
+          </div>
+          <div class="w-10 h-10 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-pink-600">
+            <svg fill="#ffffff" width="100%" height="100%" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/>
+            </svg>  
+          </div>
+          <div class="w-10 h-10 flex justify-center items-center rounded-full bg-blackRa cursor-pointer hover:bg-green-600">
+            <svg fill="#ffffff" width="80%" height="100%" viewBox="-.5 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.42 9.49c-.19-.09-1.1-.54-1.27-.61s-.29-.09-.42.1-.48.6-.59.73-.21.14-.4 0a5.13 5.13 0 0 1-1.49-.92 5.25 5.25 0 0 1-1-1.29c-.11-.18 0-.28.08-.38s.18-.21.28-.32a1.39 1.39 0 0 0 .18-.31.38.38 0 0 0 0-.33c0-.09-.42-1-.58-1.37s-.3-.32-.41-.32h-.4a.72.72 0 0 0-.5.23 2.1 2.1 0 0 0-.65 1.55A3.59 3.59 0 0 0 5 8.2 8.32 8.32 0 0 0 8.19 11c.44.19.78.3 1.05.39a2.53 2.53 0 0 0 1.17.07 1.93 1.93 0 0 0 1.26-.88 1.67 1.67 0 0 0 .11-.88c-.05-.07-.17-.12-.36-.21z"/><path d="M13.29 2.68A7.36 7.36 0 0 0 8 .5a7.44 7.44 0 0 0-6.41 11.15l-1 3.85 3.94-1a7.4 7.4 0 0 0 3.55.9H8a7.44 7.44 0 0 0 5.29-12.72zM8 14.12a6.12 6.12 0 0 1-3.15-.87l-.22-.13-2.34.61.62-2.28-.14-.23a6.18 6.18 0 0 1 9.6-7.65 6.12 6.12 0 0 1 1.81 4.37A6.19 6.19 0 0 1 8 14.12z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RexArt -->
+    <div class="w-full h-4 bg-blackRa text-[#aaa9a9] text-xs text-center">
+      Realizada con ♥ por: <a href="https://rexartmx.com/" target="_blank" class="text-richWhiteRa"> RexArt </a>
+    </div>
     <script type="module" src="/functions.js"></script>
   </body>
 </html>

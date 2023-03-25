@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+    font-family: "comantLight";
+    src: url("./public/font/CocomatLight-trial.ttf");
+
+    font-family: "comanUltraLight";
+    src: url("./public/font/CocomatLight-trial.ttf");
+}
